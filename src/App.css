@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Source+Sans+Pro&display=swap');
+
+.paper {
+    width: 50svw;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    min-height: 500px;
+}
+
+.paper h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 30px;
+}
+
+.paper h4 span {
+    color: red;
+}
+
+.thumbnail {
+    width: 55%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.paperZone {
+    width: 50svw;
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    max-height: 70vh;
+}
+
+@media only screen and (max-width: 1300px) {
+    .thumbnail {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .paper {
+        width: 90vw;
+        height: 90vh;
+        min-height: 600px;
+    }
+
+    .paperZone {
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .thumbnail {
+        width: 90%;
+        height: auto;
+    }
+}
